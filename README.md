@@ -16,15 +16,6 @@ Fornecer materiais práticos e exemplos claros para pesquisadores, estudantes e 
 
 Contribuições são bem-vindas! ✨  
 
-## Oraganização
-
-```javascript
-📂 Digital Image Processing
-├── 📂 Filtros
-│   ├── 📄 Image_filters.ipynb
-├── 📄 README.md
-```
-
 
 ## Etiquetas
 
