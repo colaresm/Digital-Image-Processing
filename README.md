@@ -16,3 +16,22 @@ Este repositório reúne notebooks dedicados ao processamento de imagens com foc
 Fornecer materiais práticos e exemplos claros para pesquisadores, estudantes e profissionais interessados em técnicas de processamento de imagens.  
 
 Contribuições são bem-vindas! ✨  
+
+## Oraganização
+
+```javascript
+📂 Digital Image Processing
+├── 📂 Filtros
+│   ├── 📄 Image_filters.ipynb
+├── 📄 README.md
+```
+
+
+## Etiquetas
+
+[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
+
+## Autores
+
+- [@colaresm](https://www.github.com/colaresm)
+
