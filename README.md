@@ -1,7 +1,6 @@
 
 # Digital Image Processing
 
-Uma breve descrição sobre o que esse projeto faz e para quem ele é
 
 # 📂 Notebooks de Processamento de Imagens  
 
