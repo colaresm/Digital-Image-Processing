@@ -1,27 +1,28 @@
+# Image Processing Algorithms in C++
 
-# Digital Image Processing
+This repository contains a collection of C++ code implementations for various image processing algorithms using the OpenCV library. The examples provided here demonstrate common techniques used in computer vision and image processing tasks.
 
+## Algorithms Implemented
 
-# 📂 Notebooks de Processamento de Imagens  
+### 1. **Mean Filter**
+   - A basic low-pass filter that smooths the image by averaging the pixel values in a given kernel.
 
-Este repositório reúne notebooks dedicados ao processamento de imagens com foco em técnicas de **filtragem**, **segmentação** e **extração de características**. Ele é ideal para quem deseja explorar ou estudar abordagens clássicas e modernas em análise de imagens, aplicadas em áreas como visão computacional e aprendizado de máquina.  
+### 2. **Gaussian Filter**
+   - Applies a Gaussian blur to reduce noise and smooth the image, using a Gaussian kernel.
 
-## 🔧 Principais recursos  
-- Implementação de filtros (médias, gaussianos, sobel, etc.);  
-- Segmentação baseada em limiares, contornos e algoritmos como Watershed;  
-- Extração de características visuais, como bordas, texturas e descritores.  
+### 3. **Median Filter**
+   - Uses the median value of the pixel values within a kernel to filter out noise, especially useful for removing salt-and-pepper noise.
 
-## 🎯 Objetivo  
-Fornecer materiais práticos e exemplos claros para pesquisadores, estudantes e profissionais interessados em técnicas de processamento de imagens.  
+### 4. **Dilation & Erosion**
+   - Implements morphological operations: **Dilation** expands white regions, and **Erosion** shrinks them in a binary image.
 
-Contribuições são bem-vindas! ✨  
+### 5. **Otsu's Thresholding**
+   - Automatically calculates an optimal threshold value for converting a grayscale image into a binary image.
 
+## Requirements
 
-## Etiquetas
-
-[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
-
-## Autores
-
-- [@colaresm](https://www.github.com/colaresm)
-
+- **OpenCV** library (version 4.x or above)
+  
+  You can install OpenCV using:
+  ```bash
+  sudo apt-get install libopencv-dev
